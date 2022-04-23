@@ -77,7 +77,7 @@ async def on_message(message):
         msg.set_image(url='https://imgur.com/WosUrYk.jpeg')
         await message.channel.send(embed=msg)
         
-client.run("ODUwOTA3Nzk0NjI5OTg0MjY2.YLwjow.F4AxnUbUqUsvI55vfgAfSTHI2eY")
+client.run("token")
 nest_asyncio.apply()      
 
 cur.close()
